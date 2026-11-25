@@ -1,8 +1,20 @@
-# freeor
+<p align="center">
+  <img src="assets/banner.png" alt="freeor — 嵌入式软件 / Qt / 无人机地面站" width="100%">
+</p>
 
-嵌入式软件、Qt 桌面应用与无人机地面站是我日常的三条主线：从板级驱动和 BSP，到 Qt/C++ 工具链，再到无人机、遥控器和图传链路。
+<p align="center">
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white">&nbsp;&nbsp;
+  <img alt="Qt 6" src="https://img.shields.io/badge/Qt%206-41CD52?style=flat-square&logo=qt&logoColor=white">&nbsp;&nbsp;
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white">&nbsp;&nbsp;
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">&nbsp;&nbsp;
+  <img alt="ESP32" src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white">&nbsp;&nbsp;
+  <img alt="RK356x" src="https://img.shields.io/badge/RK356x-1F6F5C?style=flat-square">&nbsp;&nbsp;
+  <img alt="PTP / NTP" src="https://img.shields.io/badge/PTP%20%2F%20NTP-0E3A31?style=flat-square">
+</p>
 
----
+嵌入式软件、Qt 桌面应用与无人机地面站，是我日常的三条主线：从板级驱动与 BSP，到 Qt/C++ 工具链，再到无人机、遥控器与图传链路。
+
+> 板子要跑得稳，时钟先要对得准。
 
 ## 代表项目
 
@@ -18,9 +30,25 @@
 | [QtSerialAssist](https://github.com/652436962/QtSerialAssist) | 基于 Qt 的串口调试助手 | C++ · Qt |
 | [CppDesignPattern](https://github.com/652436962/CppDesignPattern) | 22 种设计模式的 C++ 实现 | C++ |
 
-## 技术栈
+## 最近在写
 
-`C / C++` · `Qt6 / QML` · `Rust` · `Linux 驱动与 BSP` · `ESP32` · `RK3568 / RK3566` · `FFmpeg` · `PTP / NTP` · `Python`
+<p align="center">
+  <a href="https://github.com/652436962/timesync-client">
+    <img src="https://raw.githubusercontent.com/652436962/timesync-client/main/shots/p0.png" alt="TimeSync 时间同步客户端" width="820">
+  </a>
+</p>
+
+**TimeSync 时间同步客户端** — Qt 6 / QML，8 个页面
+
+按 FigCraft 设计稿实现的桌面客户端，后台用 SNTP 探测公网 NTP：多源择优、偏差告警、同步历史与事件日志。界面上的每一个毫秒，都来自 UDP/123 的真实往返。
+
+[源码](https://github.com/652436962/timesync-client) · [构建与截图](https://github.com/652436962/timesync-client/blob/main/README.md)
+
+## GitHub 活跃度
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=652436962&bg_color=0B1411&color=57B79B&line=57B79B&point=D6E8E1&area=true&hide_border=true&custom_title=GitHub%20Activity" alt="GitHub 活跃度" width="100%">
+</p>
 
 ## 了解更多
 
@@ -29,4 +57,4 @@
 
 ---
 
-有问题或想交流，直接在对应仓库开 Issue。
+<p align="center"><sub>把时间对到 1 ms 以内 · 有问题请在对应仓库开 Issue</sub></p>
